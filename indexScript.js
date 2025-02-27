@@ -1,13 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     let btnYes = document.getElementById('btn-yes');
     let btnNo = document.getElementById('btn-no');
-    let btnyes = document.getElementById('btn-yeah');
-
-    if (btnyes) {
-        btnyes.addEventListener('click', function () {
-            window.location.href = 'index_2.html';
-        });
-    }
+    
+    
 
     if (btnYes) {
         btnYes.addEventListener('click', function () {
