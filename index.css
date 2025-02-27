@@ -1,0 +1,135 @@
+html,body{
+    height:100%;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+}
+
+ body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.bar-with-heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    width: 100%;
+    height: 50px;
+    background-color: hotpink;
+    border-radius:0px;
+    position: fixed;
+    top:0%;
+    padding: 2px;
+    z-index: 100;
+}
+
+
+.heart{
+    font-size: 45px;
+    color: red;
+}
+
+body {
+    padding-top: 50px; /* Matches the height of the bar */
+    padding-bottom: 50px; /* Prevent footer overlap */
+}
+
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index: 10;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; /* Set a height to ensure space */
+    background-color: #f1f1f1; /* Optional for visibility */
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10; /* Below the bar */
+}
+
+/* Ensure the paragraph and button are properly spaced */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Align vertically */
+    margin-top: 50px;
+    gap: 20px; /* Add space from top of the page */
+}
+
+button {
+    margin-top: 10px; /* Space between the paragraph and the button */
+    padding: 20px 20px; /* Padding inside the button */
+    font-size: 20px; /* Button text size */
+    cursor:pointer; /* Change cursor to indicate clickable */
+    
+}
+
+p {
+    font-size: 50px; /* Paragraph font size */
+    text-align: center; /* Center the paragraph text */
+    font-family: cursive;
+    box-shadow: 2px 2px 50px hotpink;
+    
+}
+
+.button-container {
+    color: hotpink;
+    
+
+
+}
+
+#gif-container {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .bar-with-heart {
+        gap: 20px; /* Smaller gap for mobile */
+        height: 40px;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 30px; /* Scale down font size */
+    }
+
+    button {
+        font-size: 16px;
+        width: 100%; /* Full-width buttons for mobile */
+    }
+
+    #gif-container {
+        max-height: 200px; /* Smaller image height for mobile */
+    }
+}
+
+body {
+    padding-bottom: 50px; /* Prevent footer overlap */
+}
