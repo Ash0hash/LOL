@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let btnyes = document.getElementById('btn-yeah');
 
     if (btnyes) {
-        btnYes.addEventListener('click', function () {
+        btnyes.addEventListener('click', function () {
             window.location.href = 'index_2.html';
         });
     }
