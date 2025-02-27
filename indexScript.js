@@ -3,17 +3,19 @@ document.addEventListener("DOMContentLoaded", function () {
     let btnNo = document.getElementById('btn-no');
     let btnyes = document.getElementById('btn-yeah');
 
+    if (btnyes) {
+        btnYes.addEventListener('click', function () {
+            window.location.href = 'index_2.html';
+        });
+    }
+
     if (btnYes) {
         btnYes.addEventListener('click', function () {
             window.location.href = 'index_3.html';
         });
     }
 
-        if (btnyes) {
-        btnYes.addEventListener('click', function () {
-            window.location.href = 'index_2.html';
-        });
-        }
+        
 
     if (btnNo) {
         btnNo.addEventListener('click', function () {
