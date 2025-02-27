@@ -65,5 +65,5 @@ document.getElementById('btn-no').addEventListener('click', function() {
 });
 
 document.getElementById('btn-yes').addEventListener('click', function() {
-  window.location.href = 'indexPage3.html';
+  window.location.href = 'Success.html';
 });
