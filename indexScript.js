@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (btnYes) {
         btnYes.addEventListener('click', function () {
-            window.location.href = 'indexPage2.html';
+            window.location.href = 'index_3.html';
         });
     }
 
